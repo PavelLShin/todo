@@ -1,0 +1,97 @@
+.container {
+  margin-left: 550px;
+  width: 45%;
+  min-height: 80px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: #2d381f;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.container:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #8c8700;
+}
+
+.chexContainer {
+  background-color: #8c8700;
+}
+
+h3 {
+  margin-left: 50px;
+  width: 300px;
+  font-weight: 600;
+  margin-right: 50px;
+  font-size: 25px;
+  color: rgb(254, 254, 254);
+}
+
+.todoFill {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: teal;
+}
+
+.todoBin5 {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: rgb(180, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.todoBin5:hover {
+  color: rgb(246, 15, 15);
+  transition: all 0.2s ease-in-out;
+}
+
+.chexBox {
+  transition: all 0.2s ease-in-out;
+
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: rgb(214, 214, 214);
+}
+
+.complet {
+  color: rgb(59, 206, 14);
+}
+
+.chexBox:hover {
+  transition: all 0.2s ease-in-out;
+  color: rgb(59, 206, 14);
+}
+
+/* Для компонента End */
+.loopLeftRi {
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 4rem;
+  color: rgba(19, 186, 47, 0.677);
+  transition: all 0.2s ease-in-out;
+}
+
+.loopLeftRi:hover {
+  color: rgba(0, 238, 40, 0.677);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Для компонента Works */
+
+.deleteNoCompleted {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 4rem;
+  color: rgb(132, 97, 0);
+  transition: all 0.4s ease-in-out;
+}
+
+.deleteNoCompleted:hover {
+  color: rgb(194, 142, 0);
+  transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,34 @@
+.container {
+  cursor: pointer;
+}
+
+input {
+  font-size: 30px;
+  text-align: center;
+  width: 700px;
+  height: 100px;
+}
+
+.button {
+  top: 118px;
+  position: absolute;
+  width: 180px;
+
+  padding: 0;
+  border: 0;
+
+  cursor: pointer;
+
+  background-color: #191313;
+}
+
+.btn {
+  font-size: 8rem;
+  color: rgb(7, 187, 22);
+  transition: all 0.7s ease-in-out;
+}
+
+.btn:hover {
+  color: rgb(3, 240, 23);
+  transition: all 0.3s ease-in-out;
+}

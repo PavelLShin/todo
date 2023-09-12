@@ -1,0 +1,40 @@
+.container {
+  margin-top: 40px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.deleteBin {
+  font-size: 4rem;
+  color: rgb(177, 13, 13);
+  transition: all 0.4s ease-in-out;
+}
+
+.deleteBin:hover {
+  color: red;
+  transition: all 0.4s ease-in-out;
+}
+
+.completedDelete {
+  margin-left: 40px;
+  font-size: 4rem;
+  color: rgba(19, 186, 47, 0.677);
+  transition: all 0.2s ease-in-out;
+}
+
+.completedDelete:hover {
+  color: rgba(0, 238, 40, 0.677);
+  transition: all 0.2s ease-in-out;
+}
+
+.deleteNocompletedBin {
+  margin-left: 40px;
+  font-size: 4rem;
+  color: rgb(132, 97, 0);
+  transition: all 0.4s ease-in-out;
+}
+
+.deleteNocompletedBin:hover {
+  color: rgb(194, 142, 0);
+  transition: all 0.4s ease-in-out;
+}
